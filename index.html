@@ -148,28 +148,27 @@
               if(wt>640){
                 window.location.href="https://tianqi.qq.com/";
               }else{
-                window.location.href="https://apip.weatherdt.com/h5.html?id=JrCSiXLssE";
+                window.location.href="https://weather.seniverse.com/?token=a97df7d9-78d4-4b31-88a5-561a4bb33d9b";
               }
             });
         });
         </script>
 
 <!--天气插件开始-->
-<script>(function(T,h,i,n,k,P,a,g,e){g=function(){P=h.createElement(i);a=h.getElementsByTagName(i)[0];P.src=k;P.charset="utf-8";P.async=1;a.parentNode.insertBefore(P,a)};T["ThinkPageWeatherWidgetObject"]=n;T[n]||(T[n]=function(){(T[n].q=T[n].q||[]).push(arguments)});T[n].l=+new Date();if(T.attachEvent){T.attachEvent("onload",g)}else{T.addEventListener("load",g,false)}}(window,document,"script","tpwidget","//widget.seniverse.com/widget/chameleon.js"))</script>
-<script>tpwidget("init", {
-    "flavor": "slim",
-    "location": "WWE0TGW4PX6N",
-    "geolocation": "enabled",
-    "language": "zh-chs",
-    "unit": "c",
-    "theme": "chameleon",
-    "container": "tp-weather-widget",
-    "bubble": "enabled",
-    "alarmType": "badge",
-    "uid": "UFFFC70B02",
-    "hash": "8ca5fdc919e446872f170fb32648c78c"
-});
-tpwidget("show");</script>
+<script>
+  (function(a,h,g,f,e,d,c,b){b=function(){d=h.createElement(g);c=h.getElementsByTagName(g)[0];d.src=e;d.charset="utf-8";d.async=1;c.parentNode.insertBefore(d,c)};a["SeniverseWeatherWidgetObject"]=f;a[f]||(a[f]=function(){(a[f].q=a[f].q||[]).push(arguments)});a[f].l=+new Date();if(a.attachEvent){a.attachEvent("onload",b)}else{a.addEventListener("load",b,false)}}(window,document,"script","SeniverseWeatherWidget","//cdn.sencdn.com/widget2/static/js/bundle.js?t="+parseInt((new Date().getTime() / 100000000).toString(),10)));
+  window.SeniverseWeatherWidget('show', {
+    flavor: "slim",
+    location: "WX4FBXXFKE4F",
+    geolocation: true,
+    language: "auto",
+    unit: "c",
+    theme: "auto",
+    token: "a97df7d9-78d4-4b31-88a5-561a4bb33d9b",
+    hover: "enabled",
+    container: "tp-weather-widget"
+  })
+</script>
 <!--天气插件结束-->
 
         <div class="foot">© 2016-2021 <a href="http://52hg.3vfree.com/">欢哥科技</a> . All rights reserved.</div>
