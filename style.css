@@ -138,10 +138,10 @@ a {
     right: 6px;
     top:6px;
     cursor: pointer;
-    font-size: 18px;
+    font-size: 25px;
     line-height: 40px;
     border-radius: 50%;
-    color: #777;
+    color: rgb(255, 255, 255);
 }
 
 .con .sou ul {
