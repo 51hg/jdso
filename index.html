@@ -21,7 +21,9 @@
     <meta data-n-head="true" data-hid="description" name="description" itemprop="description"
         content="【快点搜】搜索，快一点！简单、好用、全面的网站导航">
   <link href="style.css" rel="stylesheet">
-  <link href="https://cdnjs.loli.net/ajax/libs/font-awesome/5.8.0/css/all.min.css" rel="stylesheet">
+  <link href="https://cdnjs.loli.net/ajax/libs/font-awesome/5.8.0/css/all.min.css" rel="stylesheet"> 
+   <!--字体图标库
+   <link href="https://cdn.jsdelivr.net/npm/font-awesome/css/font-awesome.min.css" rel="stylesheet">-->
   <script src="https://cdnjs.loli.net/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
 </head>
@@ -30,51 +32,52 @@
  
     <div id="menu"><i></i></div>
     <div class="list closed">
+      <p id="hitokoto"><a href="#" id="hitokoto_text">:D 获取中...</a></p>
         <ul>
             <li class="title"><i class="fa fa-fire"></i> 常用</li>
-            <li><a rel="nofollow" href="https://mail.qq.com/" target="_blank"><i class="far fa-envelope" style="color: #f03;"></i>QQ邮箱</a></li>
-            <li><a rel="nofollow" href="https://www.taobao.com" target="_blank"><i class="fas fa-cart-plus" style="color: #ff6019;"></i>淘宝网</a></li>
-            <li><a rel="nofollow" href="https://www.weibo.com" target="_blank"><i class="fab fa-weibo" style="color: #e6162d;"></i>微博</a></li>
-            <li><a rel="nofollow" href="https://translate.google.cn/?hl=zh-CN" target="_blank"><i class="fas fa-language" style="color: #02f;"></i>谷歌翻译</a></li>
-            <li><a rel="nofollow" href="https://go-xyz.xyz/" target="_blank"><i class="fab fa-google" style="color:#4285f4"></i>镜像</a></li>
-            <li><a rel="nofollow" href="https://tophub.today/" target="_blank"><i class="fas fa-rss" style="color: #11dd00;"></i>今日热榜</a></li>
-            <li><a rel="nofollow" href="https://speed.quickso.cn/" target="_blank"><i class="fas fa-cloud-download-alt" style="color: #148bfe;"></i>网速测试</a></li>
-            <li class="title"><i class="fas fa-film"></i> 视频媒体</li>
-            <li><a rel="nofollow" href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube" style="color:#f03;"></i>Youtube</a></li>
-            <li><a rel="nofollow" href="https://v.qq.com/" target="_blank"><i class="fas fa-play" style="color:#2a0;"></i>腾讯视频</a></li>
-            <li><a rel="nofollow" href="https://www.youku.com/" target="_blank"><i class="far fa-play-circle" style="color:#09e;"></i>优酷</a></li>
-            <li><a rel="nofollow" href="https://www.iqiyi.com/" target="_blank"><i class="fas fa-video" style="color:#1d0;"></i>爱奇艺</a></li>
-            <li><a rel="nofollow" href="https://www.nfmovies.com/" target="_blank"><i class="fab fa-searchengin" style="color:#f93;"></i>奈飞影视</a></li>
-            <li><a rel="nofollow" href="http://pianku.li" target="_blank"><i class="fas fa-closed-captioning"></i>片库</a></li>
-            <li><a rel="nofollow" href="http://www.acfun.cn" target="_blank"><i class="fas fa-mountain" style="color:#f33;"></i>ACFUN</a></li>
-            <li><a rel="nofollow" href="https://www.bilibili.com/" target="_blank"><i class="fas fa-compact-disc" style="color:#09e;"></i>哔哩哔哩</a></li>
-            <li><a rel="nofollow" href="https://quickso.cn/live/" target="_blank"><i class="fas fa-satellite-dish" style="color:#9ae;"></i>直播电视</a></li>
-            <li><a rel="nofollow" href="https://quickso.cn/tools/music/" target="_blank"><i class="fas fa-music" style="color:#f4a;"></i>在线音乐</a></li>
-            <li class="title"><i class="far fa-object-ungroup"></i> 设计视觉</li>
-            <li><a rel="nofollow" href="https://www.pinterest.com/" target="_blank"><i class="fab fa-pinterest" style="color:#e02;"></i>Pinterest</a></li>
-            <li><a rel="nofollow" href="https://www.behance.net/" target="_blank"><i class="fab fa-behance" style="color:#56f;"></i>Behance</a></li>
-            <li><a rel="nofollow" href="https://www.dribbble.com/" target="_blank"><i class="fab fa-dribbble" style="color:#e48;"></i>Dribbble</a></li>
-            <li><a rel="nofollow" href="https://huaban.com/" target="_blank"><i class="fas fa-spa" style="color:#f06;"></i>花瓣</a></li>
-            <li><a rel="nofollow" href="https://www.zcool.com.cn/" target="_blank"><i class="far fa-object-group" style="color:#f90;"></i>站酷</a></li>
-            <li><a rel="nofollow" href="https://www.iconfont.cn/" target="_blank"><i class="fas fa-pencil-ruler" style="color: #ff6019;"></i>阿里图标</a></li>
-            <li><a rel="nofollow" href="https://www.iconfinder.com/" target="_blank"><i class="fas fa-eye"></i>IconFinder</a></li>
-            <li><a rel="nofollow" href="https://uiiiuiii.com/" target="_blank"><i class="fas fa-chalkboard-teacher" style="color:#0aa;"></i>优设教程</a></li>
-            <li class="title"><i class="fas fa-terminal"></i> 开发</li>
-            <li><a rel="nofollow" href="http://www.w3school.com.cn/" target="_blank"><i class="fab fa-css3" style="color:#c03;"></i>W3school</a></li>
-            <li><a rel="nofollow" href="https://github.com/" target="_blank"><i class="fab fa-github"></i>Github</a></li>
-            <li><a rel="nofollow" href="https://codepen.io/" target="_blank"><i class="fab fa-codepen"></i>Codepen</a></li>
-            <li><a rel="nofollow" href="https://ping.pe" target="_blank"><i class="fas fa-network-wired" style="color:#1d0;"></i>Ping.pe</a></li>
-            <li><a rel="nofollow" href="https://ping.chinaz.com/" target="_blank"><i class="fas fa-map-pin" style="color:#09f;"></i>站长Ping</a></li>
-            <li><a rel="nofollow" href="https://www.52pojie.cn/" target="_blank"><i class="fas fa-theater-masks" style="color:#f03;"></i>吾爱破解</a></li>
-            <li><a rel="nofollow" href="https://segmentfault.com/" target="_blank"><i class="fas fa-comment-dots" style="color:#096;"></i>SF思否</a></li>
-            <li><a rel="nofollow" href="https://tools.miku.ac/" target="_blank"><i class="fas fa-tools"></i>Miku工具</a></li>
-            <li><a rel="nofollow" href="http://cubic-bezier.com" target="_blank"><i class="fas fa-bezier-curve" style="color: #f08;"></i>贝赛尔曲线</a></li>
-            <li><a rel="nofollow" href="https://cdnjs.com/" target="_blank"><i class="fab fa-js-square" style="color: #e52;"></i>CdnJs</a></li>
-            <li><a rel="nofollow" href="https://fontawesome.com/icons?d=gallery&m=free" target="_blank"><i class="fab fa-font-awesome" style="color: #4af;"></i>Font A.</a></li>
-            <li><a rel="nofollow" href="https://5iux.cn/base64" target="_blank"><i class="far fa-file-code" style="color:#1d0;"></i>Base64</a></li>
-            <li><a rel="nofollow" href="https://msdn.itellyou.cn/" target="_blank"><i class="fab fa-windows" style="color: #48c;"></i>MSDN下载</a></li>
-            <li><a rel="nofollow" href="https://javascriptobfuscator.com/Javascript-Obfuscator.aspx" target="_blank"><i class="fas fa-lock" style="color: #48c;"></i>JS混淆器</a></li>
-            <li><a rel="nofollow" href="https://dash.cloudflare.com/" target="_blank"><i class="fas fa-cloud" style="color: #f37f20;"></i>C. flare</a></li>
+            <li><a rel="nofollow" href="https://mail.qq.com/" target="_blank">QQ邮箱</a></li>
+            <li><a rel="nofollow" href="https://www.taobao.com" target="_blank">淘宝网</a></li>
+            <li><a rel="nofollow" href="https://www.weibo.com" target="_blank">微博</a></li>
+            <li><a rel="nofollow" href="https://translate.google.cn/?hl=zh-CN" target="_blank">谷歌翻译</a></li>
+            <li><a rel="nofollow" href="https://go-xyz.xyz/" target="_blank">镜像</a></li>
+            <li><a rel="nofollow" href="https://tophub.today/" target="_blank">今日热榜</a></li>
+            <li><a rel="nofollow" href="https://speed.quickso.cn/" target="_blank">网速测试</a></li>
+            <li><a rel="nofollow" href="/ip/" target="_blank">IP查询</a></li>
+            <li class="title"><i class="fa fa-film"></i> 视频媒体</li>
+            <li><a rel="nofollow" href="https://www.youtube.com/" target="_blank">Youtube</a></li>
+            <li><a rel="nofollow" href="https://v.qq.com/" target="_blank">腾讯视频</a></li>
+            <li><a rel="nofollow" href="https://www.youku.com/" target="_blank">优酷</a></li>
+            <li><a rel="nofollow" href="https://www.iqiyi.com/" target="_blank">爱奇艺</a></li>
+            <li><a rel="nofollow" href="https://www.nfmovies.com/" target="_blank">奈飞影视</a></li>
+            <li><a rel="nofollow" href="http://pianku.li" target="_blank">片库</a></li>
+            <li><a rel="nofollow" href="http://www.acfun.cn" target="_blank">ACFUN</a></li>
+            <li><a rel="nofollow" href="https://www.bilibili.com/" target="_blank">哔哩哔哩</a></li>
+            <li><a rel="nofollow" href="https://quickso.cn/live/" target="_blank">直播电视</a></li>
+            <li><a rel="nofollow" href="https://quickso.cn/tools/music/" target="_blank">在线音乐</a></li>
+            <li class="title"><i class="fa fa-object-ungroup"></i> 设计视觉</li>
+            <li><a rel="nofollow" href="https://www.pinterest.com/" target="_blank">Pinterest</a></li>
+            <li><a rel="nofollow" href="https://www.behance.net/" target="_blank">Behance</a></li>
+            <li><a rel="nofollow" href="https://www.dribbble.com/" target="_blank">Dribbble</a></li>
+            <li><a rel="nofollow" href="https://huaban.com/" target="_blank">花瓣</a></li>
+            <li><a rel="nofollow" href="https://www.zcool.com.cn/" target="_blank">站酷</a></li>
+            <li><a rel="nofollow" href="https://www.iconfont.cn/" target="_blank">阿里图标</a></li>
+            <li><a rel="nofollow" href="https://www.iconfinder.com/" target="_blank">IconFinder</a></li>
+            <li><a rel="nofollow" href="https://uiiiuiii.com/" target="_blank">优设教程</a></li>
+            <li class="title"><i class="fa fa-terminal"></i> 开发</li>
+            <li><a rel="nofollow" href="http://www.w3school.com.cn/" target="_blank">W3school</a></li>
+            <li><a rel="nofollow" href="https://github.com/" target="_blank">Github</a></li>
+            <li><a rel="nofollow" href="https://codepen.io/" target="_blank">Codepen</a></li>
+            <li><a rel="nofollow" href="https://ping.pe" target="_blank">Ping.pe</a></li>
+            <li><a rel="nofollow" href="https://ping.chinaz.com/" target="_blank">站长Ping</a></li>
+            <li><a rel="nofollow" href="https://www.52pojie.cn/" target="_blank">吾爱破解</a></li>
+            <li><a rel="nofollow" href="https://segmentfault.com/" target="_blank">SF思否</a></li>
+            <li><a rel="nofollow" href="https://tools.miku.ac/" target="_blank">Miku工具</a></li>
+            <li><a rel="nofollow" href="http://cubic-bezier.com" target="_blank">贝赛尔曲线</a></li>
+            <li><a rel="nofollow" href="https://cdnjs.com/" target="_blank">CdnJs</a></li>
+            <li><a rel="nofollow" href="https://fontawesome.com/icons?d=gallery&m=free" target="_blank">Font A.</a></li>
+            <li><a rel="nofollow" href="https://msdn.itellyou.cn/" target="_blank">MSDN下载</a></li>
+            <li><a rel="nofollow" href="https://javascriptobfuscator.com/Javascript-Obfuscator.aspx" target="_blank">JS混淆器</a></li>
+            <li><a rel="nofollow" href="https://dash.cloudflare.com/" target="_blank">C. flare</a></li>
         </ul>
     </div>
    <div class="bgo"></div> 
@@ -93,7 +96,20 @@
                 </ul>
             </div>
         </div>
-      
+        
+        <!-- 一言 -->
+        
+        <!-- 现代写法，推荐(不支持 IE) -->
+        <script>
+          fetch('https://v1.hitokoto.cn')
+            .then(response => response.json())
+            .then(data => {
+              const hitokoto = document.getElementById('hitokoto_text')
+              hitokoto.href = 'https://hitokoto.cn/?uuid=' + data.uuid
+              hitokoto.innerText = data.hitokoto
+            })
+            .catch(console.error)
+        </script>
         <script>
         $(document).ready(function() {
             //判断窗口大小，添加输入框自动完成

@@ -303,7 +303,13 @@ a {
 .list.closed {
     right: -380px;
 }
-
+.list p{
+    width: 330px;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    color: rgb(34, 19, 19);
+}
 .list ul {
     width: 330px;
     float: left;
@@ -330,7 +336,7 @@ a {
     color: #000;
     font-weight: 500;
     background: #fff;
-    text-align: left;
+    text-align: center;
 }
 
 .list ul li a i {
