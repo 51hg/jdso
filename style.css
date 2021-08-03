@@ -13,7 +13,9 @@ body {
     height: 100%;
     position: relative;
     overflow: hidden;
-    background: #fff;
+/*     background: #fff; */
+    background: url("https://bing.biturl.top/?resolution=1920&format=image&index=0&mkt=zh-CN");
+    background-size: cover;
 }
 
 html {
